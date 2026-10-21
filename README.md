@@ -1,6 +1,8 @@
 # Deteksi Jumlah Jari (3 Jari vs 5 Jari)
 
 Aplikasi web sederhana untuk mengenali apakah tangan yang ditunjukkan ke kamera menampilkan **3 jari** atau **5 jari**. Model klasifikasi gambar dilatih dengan [Teachable Machine](https://teachablemachine.withgoogle.com/) dan dijalankan langsung di browser memakai TensorFlow.js, tanpa server tambahan.
+## Link Demo
+https://rafhwal.github.io/My-Model-3-Finger-or-5-Finger/
 
 ## Fitur
 
