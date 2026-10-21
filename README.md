@@ -2,8 +2,6 @@
 
 Aplikasi web sederhana untuk mengenali apakah tangan yang ditunjukkan ke kamera menampilkan **3 jari** atau **5 jari**. Model klasifikasi gambar dilatih dengan [Teachable Machine](https://teachablemachine.withgoogle.com/) dan dijalankan langsung di browser memakai TensorFlow.js, tanpa server tambahan.
 
-**Demo:** https://username.github.io/nama-repo/ *(ganti dengan link GitHub Pages kamu)*
-
 ## Fitur
 
 - Prediksi real-time dari kamera (webcam).
@@ -31,16 +29,6 @@ Alur pembuatannya: mengumpulkan sampel gambar untuk tiap kelas lewat webcam, mel
 ```
 
 File `index.html` memuat model (`model.json`, `metadata.json`, dan `weights.bin`) langsung di dalam kodenya, sehingga cukup satu file untuk menjalankan aplikasi.
-
-## Cara Menjalankan
-
-1. Unduh atau clone repo ini.
-2. Pastikan komputer terhubung ke internet, karena library TensorFlow.js dan Teachable Machine dimuat dari CDN.
-3. Buka `index.html` di browser (Chrome disarankan).
-4. Tunggu tulisan "Model siap", tekan **Mulai kamera**, lalu izinkan akses kamera.
-5. Tunjukkan 3 jari atau 5 jari ke kamera dan lihat hasil prediksinya.
-
-Atau buka langsung lewat link demo di atas.
 
 ## Teknologi
 
